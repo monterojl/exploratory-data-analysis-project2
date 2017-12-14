@@ -20,20 +20,20 @@ PM2.5 Emissions Data (summarySCC_PM25.rds): This file contains a data frame with
 
 Source Classification Code Table (Source_Classification_Code.rds): This table provides a mapping from the SCC digit strings in the Emissions table to the actual name of the PM2.5 source. The sources are categorized in a few different ways from more general to more specific and you may choose to explore whatever categories you think are most useful. For example, source “10100101” is known as “Ext Comb /Electric Gen /Anthracite Coal /Pulverized Coal”.
 
-# R Script: "Plot1.R"
+# R Script: "plot1.R"
 ## Variables
 NEI: data from file "summarySCC_PM25.rds"
 SCC: data from file "Source_Classification_Code.rds"
 totals: summary of total emissions per year without NAs from NEI
 
-# R Script: "Plot2.R"
+# R Script: "plot2.R"
 ## Variables
 NEI: data from file "summarySCC_PM25.rds"
 NEIsub: subset of NEI including only Baltimore data
 SCC: data from file "Source_Classification_Code.rds"
 totals: summary of total emissions per year without NAs from NEIsub
 
-# R Script: "Plot3.R"
+# R Script: "plot3.R"
 ## Variables
 NEI: data from file "summarySCC_PM25.rds"
 NEIsub: subset of NEI including only Baltimore data
@@ -50,21 +50,21 @@ totalsFrame have been reshaped as the 2 variables grouping from tapply output is
 - melting year columns as row values
 - setting names
 
-# R Script: "Plot4.R"
+# R Script: "plot4.R"
 ## Variables
 NEI: data from file "summarySCC_PM25.rds"
 NEIsub: subset of NEI including only coal-combustion related data
 SCC: data from file "Source_Classification_Code.rds"
 totals: summary of total emissions per year without NAs from NEIsub
 
-# R Script: "Plot5.R"
+# R Script: "plot5.R"
 ## Variables
 NEI: data from file "summarySCC_PM25.rds"
 NEIsub: subset of NEI including only Baltimore and coal-combustion related data
 SCC: data from file "Source_Classification_Code.rds"
 totals: summary of total emissions per year without NAs from NEIsub
 
-# R Script: "Plot6.R"
+# R Script: "plot6.R"
 ## Variables
 NEI: data from file "summarySCC_PM25.rds"
 NEIsub: subset of NEI including only Baltimore and coal-combustion related data
