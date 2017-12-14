@@ -11,14 +11,16 @@ Data for Peer Assessment [29Mb]: https://d396qusza40orc.cloudfront.net/exdata%2F
 
 * CodeBook.md: Describes the variables, the data, and any transformations or work that you performed.
 
-* Plot1.R: R script that answers question1 - Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
+* Answers_to_questions.md: Answers to the questions launched in the project
 
-* Plot2.R: R script that answers question2 - Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips == "24510") from 1999 to 2008? Use the base plotting system to make a plot answering this question.
+* plot1.R: R script that answers question1 - Have total emissions from PM2.5 decreased in the United States from 1999 to 2008? Using the base plotting system, make a plot showing the total PM2.5 emission from all sources for each of the years 1999, 2002, 2005, and 2008.
 
-* Plot3.R: R script that answers question3 - Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for Baltimore City? Which have seen increases in emissions from 1999–2008? Use the ggplot2 plotting system to make a plot answer this question.
+* plot2.R: R script that answers question2 - Have total emissions from PM2.5 decreased in the Baltimore City, Maryland (fips == "24510") from 1999 to 2008? Use the base plotting system to make a plot answering this question.
 
-* Plot4.R: R script that answers question4 - Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
+* plot3.R: R script that answers question3 - Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, which of these four sources have seen decreases in emissions from 1999–2008 for Baltimore City? Which have seen increases in emissions from 1999–2008? Use the ggplot2 plotting system to make a plot answer this question.
 
-* Plot5.R: R script that answers question5 - How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?
+* plot4.R: R script that answers question4 - Across the United States, how have emissions from coal combustion-related sources changed from 1999–2008?
 
-* Plot6.R: R script that answers question6 - Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?
+* plot5.R: R script that answers question5 - How have emissions from motor vehicle sources changed from 1999–2008 in Baltimore City?
+
+* plot6.R: R script that answers question6 - Compare emissions from motor vehicle sources in Baltimore City with emissions from motor vehicle sources in Los Angeles County, California (fips == "06037"). Which city has seen greater changes over time in motor vehicle emissions?
